@@ -1,0 +1,43 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+storage/logs/
+storage/debugbar/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE / Editor
+/.idea
+/.vscode
+/.fleet
+/.zed
+.phpactor.json
+.phpunit.result.cache
+/.phpunit.cache
+
+# Composer / PHP
+/vendor
+/auth.json
+Homestead.json
+Homestead.yaml
+
+# Node / Frontend
+/node_modules
+/public/build
+/public/hot
+
+# Laravel generated / temporary
+/public/storage
+/storage/*.key
+/storage/pail
+/bootstrap/cache/
+
+# Project exclude paths
+/storage/app/
+/storage/framework/
