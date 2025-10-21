@@ -5,6 +5,6 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::view('/home', 'home');
+Route::view('/', 'home');
 
 Route::get('/products', [ProductController::class, 'index'])->name('products.index');
