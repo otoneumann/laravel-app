@@ -6,6 +6,8 @@
 </head>
 <body>
 
+@if(session('')) @endif
+
 {{ $slot }}
 
 </body>
